@@ -7,16 +7,16 @@ public class DifferentRadixSummator {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter X in Bin: ");
-        String X1 = scan.nextLine();
-        int X = Integer.parseInt(X1, 2);
+        String x1 = scan.nextLine();
+        int x = Integer.parseInt(x1, 2);
         System.out.print("Enter Y in Oct: ");
-        String Y1 = scan.nextLine();
-        int Y = Integer.parseInt(Y1, 8);
+        String y1 = scan.nextLine();
+        int y = Integer.parseInt(y1, 8);
         System.out.print("Enter Z in Hex: ");
-        String Z1 = scan.nextLine();
-        int Z = Integer.parseInt(Z1, 16);
+        String z1 = scan.nextLine();
+        int z = Integer.parseInt(z1, 16);
 
-        int sum = X + Y + Z;
+        int sum = x + y + z;
 
         System.out.println("X + Y + Z = " + sum);
 
