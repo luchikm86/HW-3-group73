@@ -8,8 +8,13 @@ DayOfTheWeek.java
 MinOfTwo.java
 
 3. Даны числа int a, b, c. Найти наименьшее.
+MinOfThree.java
+
 4. Даны числа int a, b. Вывести -1, если a < b; 0, если a == b; +1, если a > b.
+CondOfThree.java
+
 5. Дано число int n. Определить, находится ли это число в диапазоне 100..200.
+NumberInRange.java
 
 Циклы:
 Вывести в консоль числа 10, 11, 12, … 30.
